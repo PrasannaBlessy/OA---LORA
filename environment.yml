@@ -1,0 +1,23 @@
+name: oalora
+
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - pytorch-cuda=12.1
+  - pip:
+      - diffusers
+      - transformers
+      - accelerate
+      - peft
+      - safetensors
+      - PyYAML
+      - numpy
+      - Pillow
+      - tqdm
