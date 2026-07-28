@@ -1,0 +1,11 @@
+# OA-LoRA Configuration - TuSimple
+# Dataset-specific configuration
+
+dataset:
+  name: TuSimple
+  root_dir: ""
+  selected_images_dir: ""
+  num_images: 1000
+
+reproducibility:
+  seed: 469
